@@ -1,0 +1,25 @@
+body {
+    padding: 10px;
+  }
+  h2{
+    border: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  input {
+    margin: 5px;
+  }
+  div{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+  
+  .group{
+  display:flex;
+  justify-content: center;
+  
+  }
+  .flex-column{
+    flex-direction: column;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main class="group">
+        <fieldset>
+            <legend>Want To Contact Me?</legend>
+      <form  action="https://formspree.io/f/xbjqqgrn" method="post" >
+        
+
+        <div>
+          <label for="name">Full Name:</label>
+          <input id="name" type="text" name="name" placeholder="Enter your full name"/>
+        </div>
+        
+        <div>
+            <label for="email">Your Email:</label>
+            <input id="email" type="email" name="email" placeholder="Enter your Email Here"/>
+          </div>
+
+
+        <div>
+          <label for="form-message">Your message:</label>
+          <textarea
+            id="form-message"
+            name="message"
+            autofocus="on"
+            required
+            maxlength="200"
+            placeholder="How can I help you?"
+          ></textarea>
+        </div>
+
+
+
+
+        <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+
+
+
+    
+     
+      </form>
+
+
+
+
+
+
+      </fieldset>
+    </main>
+  </body>
+</html>
